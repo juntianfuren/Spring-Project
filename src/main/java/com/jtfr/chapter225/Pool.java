@@ -21,7 +21,7 @@ public abstract class Pool {
 
     public String propertiesName = "connection-INF.properties";
 
-    private static Pool instance = null; // 定义唯一实例
+    protected static Pool instance = null; // 定义唯一实例
 
     protected int maxConnect = 108; // 最大连接数
 
